@@ -1,14 +1,35 @@
 body{
   background-color:lavenderblush;
-  font-family: 'Merriweather Sans', sans-serif;
 }
 
 h1 {
   text-align: center;
   color:purple;
   font-size: 100px;
-  
+  font-family: 'Merriweather Sans', sans-serif;
+  margin: 3%
 }
-a {
-  padding:
+
+h2 {
+  text-align: center;
+  color:purple;
+  font-size: 30px;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.quicksand {
+  font-family: 'Quicksand', sans-serif;
+  color:black;
+  font-size: 18px;
+
+}
+.link-to-pages {
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
+  color:black;
+}
+
+p {
+  margin: 5% 20% 0% 20%;
+  text-align:center;
 }
