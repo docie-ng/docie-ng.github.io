@@ -10,12 +10,12 @@ body{
   align-items:center;
 }
 
-h1 {
+#welcome-message {
   text-align: center;
   color:purple;
   font-size: 100px;
   font-family: 'Merriweather Sans', sans-serif;
-  margin: 3%
+  margin: 0.5%;
 }
 
 h2 {
@@ -27,15 +27,18 @@ h2 {
 
 h3 {
   text-align: center;
-  color:purple;
-  font-size: 25px;
+  color:#9a6fc3;
+  font-size: 20px;
   font-family: 'Merriweather Sans', sans-serif;
+  margin: 7% 0% -1% 0%;
 }
 
 .quicksand {
   font-family: 'Quicksand', sans-serif;
   color:black;
   font-size: 18px;
+  margin: 5% 20% 0% 20%;
+  text-align:center;
 
 }
 .link-to-pages {
@@ -44,31 +47,13 @@ h3 {
   color:black;
 }
 
-p {
-  margin: 5% 20% 0% 20%;
-  text-align:center;
-}
-
 .home-icon{
   margin: 5% 50% 5% 50%;
 }
 
-#text{
-  font-family:'Merriweather Sans', sans-serif;
-  font-size: 17px;
-  position: relative;
-}
-
-#what-is-class{
-  position: absolute;
-  top: 100px; 
-  right: 675px;
-  left: 235px;
-}
-#paint-landscape{
-  width: 500px;
-  height: 400px;
-  position: absolute;
-  top: 80px;
-  left: 200px;
+.image-position{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
 }
