@@ -8,6 +8,7 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items:center;
+  background-image: url(../icons/purple\ background2.jpg);
 }
 
 #welcome-message {
