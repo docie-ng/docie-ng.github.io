@@ -1,3 +1,11 @@
+#welcome-message {
+  text-align: center;
+  color:purple;
+  font-size: 100px;
+  font-family: 'Merriweather Sans', sans-serif;
+  margin: 0.5%;
+}
+
 body{
   background-color:lavenderblush;
 }
@@ -11,13 +19,6 @@ body{
   background-image: url(../icons/purple\ background2.jpg);
 }
 
-#welcome-message {
-  text-align: center;
-  color:purple;
-  font-size: 100px;
-  font-family: 'Merriweather Sans', sans-serif;
-  margin: 0.5%;
-}
 
 h2 {
   text-align: center;
@@ -59,3 +60,47 @@ h3 {
   width: 30%;
 }
 
+/* responsive web design, mobile */
+
+@media screen and (min-width: 320px){
+  #welcome-message, h2 {
+    font-size: 30px;
+  }
+.link-to-pages {
+  font-size: 15px;
+}
+.home-icon { 
+  display: flex;
+  justify-content: center;
+}
+}
+
+/* responsive web design, ipad */
+
+@media screen and (min-width: 768px){
+  #welcome-message, h2 {
+    font-size: 40px;
+  }
+.link-to-pages {
+  font-size: 20px;
+}
+.home-icon { 
+  display: flex;
+  justify-content: center;
+}
+}
+
+/* responsive web design, laptop */
+
+@media screen and (min-width: 1200px){
+  #welcome-message, h2 {
+    font-size: 100px;
+  }
+.link-to-pages {
+  font-size: 30px;
+}
+.home-icon { 
+  display: flex;
+  justify-content: center;
+}
+}
