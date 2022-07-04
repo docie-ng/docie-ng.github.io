@@ -62,7 +62,7 @@ h3 {
 
 /* responsive web design, mobile */
 
-@media screen and (min-width: 320px){
+/* @media screen and (min-width: 320px){
   #welcome-message, h2 {
     font-size: 30px;
   }
@@ -73,11 +73,11 @@ h3 {
   display: flex;
   justify-content: center;
 }
-}
+} */
 
 /* responsive web design, ipad */
 
-@media screen and (min-width: 768px){
+/* @media screen and (min-width: 768px){
   #welcome-message, h2 {
     font-size: 40px;
   }
@@ -92,7 +92,7 @@ h3 {
 
 /* responsive web design, laptop */
 
-@media screen and (min-width: 1200px){
+/* @media screen and (min-width: 1200px){
   #welcome-message, h2 {
     font-size: 100px;
   }
@@ -103,4 +103,4 @@ h3 {
   display: flex;
   justify-content: center;
 }
-}
+} */
